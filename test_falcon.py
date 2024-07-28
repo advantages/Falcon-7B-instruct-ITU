@@ -64,7 +64,7 @@ bnb_config = BitsAndBytesConfig(
 
 
 # peft_model_id = "experiments_myown/checkpoint-1500"      # 0.803278688
-peft_model_id = "/home/wqpu/tppan/falcon_project_all/Indian-LawyerGPT/experiments_myown_largerlora_nodropout/checkpoint-4000"
+peft_model_id = "./checkpoint-4000"
 
 config = PeftConfig.from_pretrained(peft_model_id)
 model = AutoModelForCausalLM.from_pretrained(
