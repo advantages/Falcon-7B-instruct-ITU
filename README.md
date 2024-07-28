@@ -20,3 +20,4 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 tokenizer = AutoTokenizer.from_pretrained("/data/tppan/falcon-7b-instruct")
 ```
+Explanation parts are generated using claude-3-sonnet model, which we will provide detailed introduction in the workshop paper.
