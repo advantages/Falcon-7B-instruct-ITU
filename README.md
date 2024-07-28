@@ -50,4 +50,4 @@ All the options for the question in json format: {{ Options }}
 Question in json format: {{ Question }}
 ```
 
-Finally, the submitted file is saved as "answer.csv".
+Finally, the submitted file is saved as "answer.csv" while file "output.md" saves the response of falcon-7B-instruct in each iteration.
