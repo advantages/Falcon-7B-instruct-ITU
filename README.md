@@ -7,3 +7,16 @@ For testing the results, one can directly run the following code:
 ```python
 python test_falcon.py
 ```
+
+Note that changing the "falcon-7b-instruct" path with your local path.
+
+```python
+model = AutoModelForCausalLM.from_pretrained(
+    "/data/tppan/falcon-7b-instruct",
+    return_dict=True,
+    quantization_config=bnb_config,
+    device_map="auto",
+    trust_remote_code=True,
+)
+tokenizer = AutoTokenizer.from_pretrained("/data/tppan/falcon-7b-instruct")
+```
