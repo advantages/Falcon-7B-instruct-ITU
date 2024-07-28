@@ -25,7 +25,9 @@ Each item in the provided csv file including three parts:
 
 ```python
 {Question}
+
 The following are the options towards the given question: {options}
+
 The following are the prior knowledge you can refer to: {explanation}
 ```
 
