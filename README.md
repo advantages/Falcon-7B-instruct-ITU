@@ -49,3 +49,5 @@ All the options for the question in json format: {{ Options }}
 
 Question in json format: {{ Question }}
 ```
+
+Finally, the submitted file is saved as "answer.csv".
