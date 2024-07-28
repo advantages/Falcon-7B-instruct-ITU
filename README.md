@@ -31,7 +31,7 @@ The following are the options towards the given question: {options}
 The following are the prior knowledge you can refer to: {explanation}
 ```
 
-Explanation parts are generated using claude-3-sonnet model with the following prompt, the detailed motivation of which will be provided in the workshop paper.
+Explanation parts are generated using claude-3-sonnet model with the following prompt.
 
 ```python
 You are an expert in telecommunications, your role is to provide rational explanation for the provided options. Your explanations should reveal the internal logic behind the questions and options, helping a layperson understand the reasoning without explicitly stating the answer.
