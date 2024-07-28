@@ -21,7 +21,8 @@ model = AutoModelForCausalLM.from_pretrained(
 tokenizer = AutoTokenizer.from_pretrained("/data/tppan/falcon-7b-instruct")
 ```
 
-Each item in the provided csv file including three parts:
+falconinstruct_newft.csv file contains all 2,366 issues that need to be submitted, and each item is the content that feeds directly into falcon-7B-instruct.
+Each item in the provided falconinstruct_newft.csv file including three parts:
 
 ```python
 {Question}
@@ -30,6 +31,7 @@ The following are the options towards the given question: {options}
 
 The following are the prior knowledge you can refer to: {explanation}
 ```
+
 
 Explanation parts are generated using claude-3-sonnet model with the following prompt.
 
