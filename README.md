@@ -4,4 +4,6 @@ lora weights can be downloaded at https://drive.google.com/drive/folders/1nhBwPR
 
 For testing the results, one can directly run the following code:
 
+```python
 python test_falcon.py
+```
